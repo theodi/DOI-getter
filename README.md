@@ -6,9 +6,9 @@ The script in this repo does the first two steps of that process. Download it an
 2. Query the crossref API to find the link's best-match corresponding DOI
 3. Create a .csv file with each link, its corresponding DOI, and the page it is on. This csv can be used as a basis to update the references in that PDF.
 
-NOTE: it doesn't edit the PDFs - a person has to do that via a google doc
-NOTE: false positive rate = 25% ; false negative rate = 0%. human validation of each DOI required.
-NOTE: Python
+* NOTE: it doesn't edit the PDFs - a person has to do that via a google doc
+* NOTE: false positive rate = 25% ; false negative rate = 0%. human validation of each DOI required.
+* NOTE: Python
 
 ## Usage Instructions
 1. Download/clone this repo to your local machine
